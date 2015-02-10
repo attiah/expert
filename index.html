@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>E-HEALTH APPLICATION </title>
+    <script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    <link href="jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css" />
+    <link href="uploadfile.min.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.uploadfile.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.css">
+    <script src="http://cdn.rawgit.com/jquery/jquery-ui/1.10.4/ui/jquery.ui.datepicker.js"></script>
+    <script id="mobile-datepicker" src="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.js"></script>
+   
+   <script src="index.js" type="text/javascript"></script>
+    <style type="text/css">
+    .iconLeft a
+    {
+    padding-left: 2.5em !important;
+    padding-right: 1em !important;
+    
+    }
+.iconLeft a:after{
+    right: auto;
+    left: 9px;
+}
+    </style>
+</head>
+<body  style="padding:10px;">
+
+<!--      Main Menu  -->
+
+<div id="menu1" data-theme="a">
+   <ul data-role="listview" data-autodividers="false" data-inset="false" data-split-icon="arrow-l" data-split-theme="d">
+        <li ><a href="#home" class="ui-btn ui-btn-icon-left ui-icon-home">Home</a></li>
+        <li ><a href="#about" class="ui-btn ui-btn-icon-left ui-icon-eye" >About US  </a></li>
+        <li ><a href="#register" class="ui-btn ui-btn-icon-left ui-icon-user">Register</a></li>
+        <li ><a href="#callus"  class="ui-btn ui-btn-icon-left ui-icon-phone">Call US</a></li>  
+        <li ><a href="#login"  class="ui-btn ui-btn-icon-left ui-icon-user">Login</a></li>    
+   </ul>
+</div>
+
+<!--      Home  -->
+<div data-role="page" id="home" data-theme="b">
+ <div data-role="header" data-position="fixed" data-theme="b">
+     <a href="#menu1" data-rel="popup" class="ui-btn ui-btn-left  ui-icon-bars ui-btn-icon-left" >Menu</a>
+    <h1  > E-HEALTH APPLICATION </h1>
+  </div>
+  <div data-role="main" class="ui-content" >
+The system to be developed will be a mobile-based expert system for a disease diagnosis.
+The disease symptoms have to be in a specific specialism such as stomach, kidney, and bones Aches, heart attacks, cancers, general infections, joints infections, etc.
+Diagnostic rules will be taken from the doctors whose specialized in these kind of Diseases. On the other hand, we let the doctors feed our system with data such as: diseases symptoms and treatments and our job to process these data and ask the patient to answer sequential questions we ask him, based on the answers we will diagnose the patient and provide the proper treatments for him. 
+However, the expert system cannot take the doctor position. It just helps to provide free medical diagnose.
+      
+
+   
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+  <h6 style="text-align:center;">All Right Reserved @2014</h6>
+  </div>
+</div>
+
+<!--      About  -->
+
+<div data-role="page" id="about" data-theme="b">
+ <div data-role="header" data-position="fixed" data-theme="b">
+     <a href="#menu1" data-rel="popup" class="ui-btn ui-btn-left  ui-icon-bars ui-btn-icon-left" >Menu</a>
+    <h1  > E-HEALTH APPLICATION </h1>
+  </div>
+  <div data-role="content" class="ui-content">
+    <h2 style ="text-align:center ;">About US</h2>
+     <ul data-role="listview" data-autodividers="false" data-inset="false" data-split-icon="arrow-l" data-split-theme="a">
+        <li data-icon="star" class="iconLeft"><a href="#" ><h2>Rayan Abdullah Alsubhi 1323618 </h2></a></li>
+        <li data-icon="star" class="iconLeft"><a href="#" ><h2>Bassam babgi 0908836</h2></a></li>
+        <li data-icon="star" class="iconLeft"><a href="#" ><h1>super Visor</h1><h2> Vijeyananthan </h2></a></li>
+     </ul>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+  <h6 style="text-align:center;">All Right Reserved @2014</h6>
+  </div>
+</div>
+
+</div>
+
+<!--      Call Us  -->
+
+
+<div data-role="page" id="callus" data-theme="b">
+ <div data-role="header" data-position="fixed" data-theme="b">
+     <a href="#menu1" data-rel="popup" class="ui-btn ui-btn-left  ui-icon-bars ui-btn-icon-left" >Menu</a>
+    <h1  > E-HEALTH APPLICATION </h1>
+  </div>
+  <div data-role="content" class="ui-content">
+    <h2 style ="text-align:center ;">Call  US</h2>
+     <ul data-role="listview" data-autodividers="false" data-inset="false" data-split-icon="arrow-l" data-split-theme="a">
+        <li data-icon="star" class="iconLeft"><a href="#" ><h2>Rayan Abdullah Alsubhi - 0543420483 </h2></a></li>
+        <li data-icon="star" class="iconLeft"><a href="#" ><h2>Bassam babgi - 0562805775 </h2></a></li>
+  </ul>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+  <h6 style="text-align:center;">All Right Reserved @2014</h6>
+  </div>
+</div>
+</div>
+
+<!--      REgister  -->
+
+
+<div data-role="page" id="register" data-theme="b">
+ <div data-role="header" data-position="fixed" data-theme="b">
+     <a href="#menu1" data-rel="popup" class="ui-btn ui-btn-left  ui-icon-bars ui-btn-icon-left" >Menu</a>
+    <h1  > E-HEALTH APPLICATION </h1>
+  </div>
+  <div data-role="content" class="ui-content">
+    <h2 style ="text-align:center ;">Register</h2>
+  <div class="ui-field-contain" >
+ 
+  <input type="text" name="username" id="username" placeholder="Patient name" maxlength="50">
+  <input type="text" name="phone" id="phone" placeholder="Patient phone" maxlength="10">
+  <input type="text" name="email" id="email" placeholder="Email" maxlength="50">
+  <input type="text" data-role="date" id="bdate" name="bdate"  placeholder="BrithDate">
+  <input type="password" name="password" id="password" placeholder="password" maxlength="10">
+ <table style="width:100%;"> 
+ <tr>
+ <td style="text-align:right ; "> <input type="checkbox" name="chks" id="chks" value=""> </td>
+ <td style="text-align:left">Smoken</td>
+ </tr>
+ <tr>
+ <td style="text-align:right ; "> <input type="checkbox" name="chkp" id="chkp" value=""> </td>
+ <td style="text-align:left">Pressure</td>
+ </tr>
+ <tr>
+ <td style="text-align:right ; "> <input type="checkbox" name="chkd" id="chkd" value=""> </td>
+ <td style="text-align:left">Diabetes</td>
+ </tr>
+ </table>
+  </div>
+  <h2> <a href="javascript:testdata()"  class="ui-btn " >Register</a></h2>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+  <h6 style="text-align:center;">All Right Reserved @2014</h6>
+  </div>
+</div>
+</div>
+
+<!--      Login  -->
+
+
+<div data-role="page" id="login" data-theme="b">
+ <div data-role="header" data-position="fixed" data-theme="b">
+     <a href="#menu1" data-rel="popup" class="ui-btn ui-btn-left  ui-icon-bars ui-btn-icon-left" >Menu</a>
+    <h1  > E-HEALTH APPLICATION </h1>
+  </div>
+  <div data-role="content" class="ui-content">
+    <h2 style ="text-align:center ;">Login</h2>
+  <div class="ui-field-contain" >
+  <input type="text" name="cid" id="cid" placeholder="User id">
+  <input type="password" name="cpass" id="cpass" placeholder="User password">
+  </div>
+  <h2> <a href="javascript:testLogin()"  class="ui-btn " >Login</a></h2>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+  <h6 style="text-align:center;">All Right Reserved @2014</h6>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
